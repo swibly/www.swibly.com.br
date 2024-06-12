@@ -5,7 +5,9 @@ import { Icon } from 'astro-icon/components';
 ---
 
 <Layout title="Bem-vindo à Swibly">
-  <div class="flex flex-col gap-4 items-center">
+  <div class="flex flex-col gap-4 items-center w-full">
+    <img src="/logo.jpeg" alt="" class="w-48" aria-hidden />
+
     <p class="animate-pulse">Estamos criando algo incrível.</p>
 
     <a href="https://arkhon.swibly.org" class="btn btn-sm btn-wide link btn-ghost">
@@ -13,5 +15,18 @@ import { Icon } from 'astro-icon/components';
 
       <Icon name="material-symbols:link" size={16} />
     </a>
+
+    <div class="divider"></div>
+
+    <p class="font-bold">Idealizado originalmente por:</p>
+
+    <ul class="grid grid-cols-3 place-items-center gap-4 opacity-70 max-sm:grid-cols-1">
+      <li>Ana Buzana</li>
+      <li>André Luis</li>
+      <li>André Victor</li>
+      <li>Carlos Daniel</li>
+      <li>Eduardo Lima</li>
+      <li>Gustavo Marques</li>
+    </ul>
   </div>
 </Layout>
