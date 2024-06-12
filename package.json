@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.7.0",
+    "@astrojs/tailwind": "^5.1.0",
     "@typescript-eslint/parser": "^7.13.0",
     "astro": "^4.10.2",
     "eslint": "9.x",
@@ -19,10 +20,12 @@
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "prettier": "^3.3.2",
     "prettier-plugin-astro": "^0.14.0",
+    "tailwindcss": "^3.4.4",
     "typescript": "^5.4.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.4.0",
+    "daisyui": "^4.12.2",
     "globals": "^15.4.0",
     "typescript-eslint": "^7.13.0"
   }
